@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_background">#886688</color>
+    <color name="tab_top_text_1">#aaa</color>
+    <color name="tab_top_text_2">#000</color>
+    <color name="selected">#FFDEAD</color>
+    <color name="unselected">#FFFFFF</color>
+    <color name="number">#B8860B</color>
+    
+</resources>

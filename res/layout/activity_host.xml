@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_activity_back" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="LuckyBingo"
+        android:textColor="#ffffff"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#6FAF2C"
+        android:text="重置" 
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        />
+
+    <LinearLayout
+        android:layout_below="@+id/rotate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="106dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_luckynum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="幸运数字为："
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/tv_showluckynum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/rotate"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/choujiang" 
+        android:scaleType="centerCrop"
+        android:textSize="60sp"
+        android:gravity="center"
+        />
+
+</RelativeLayout>
